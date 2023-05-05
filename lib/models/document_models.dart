@@ -36,5 +36,11 @@ class Document {
       "16-01-2020",
       145,
     ),
+    Document(
+      "Data Science and Machine Learning",
+      "https://people.smp.uq.edu.au/DirkKroese/DSML/DSML.pdf",
+      "13-07-2018",
+      533,
+    ),
   ];
 }
