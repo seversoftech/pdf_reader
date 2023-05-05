@@ -61,5 +61,12 @@ class Document {
       "12-03-2015",
       237,
     ),
+
+    Document(
+      "Quantum Computer Science",
+      "https://library.uoh.edu.iq/admin/ebooks/22831-quantum_computer_science.pdf",
+      "12-03-2015",
+      237,
+    ),
   ];
 }
