@@ -87,14 +87,14 @@ class Document {
     Document(
       "Technical Writting",
       "https://www.e-buc.com/portades/9788498803488_L33_23.pdf",
-      "4-11-2027",
+      "4-11-2017",
       32,
     ),
-     Document(
-      "Technical Writting",
-      "https://www.e-buc.com/portades/9788498803488_L33_23.pdf",
-      "4-11-2027",
-      32,
+    Document(
+      "A guide to technical report writing",
+      "https://www.theiet.org/media/5182/technical-report-writing.pdf",
+      "4-11-2019",
+      12,
     ),
   ];
 }
