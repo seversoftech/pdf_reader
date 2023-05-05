@@ -5,7 +5,7 @@ import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
 class ReaderScreen extends StatefulWidget {
   ReaderScreen(this.doc, {super.key});
 
-  Document? doc;
+   Document? doc;
 
   @override
   State<ReaderScreen> createState() => _ReaderScreenState();
