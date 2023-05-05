@@ -72,5 +72,17 @@ class Document {
       "29-06-2019",
       206,
     ),
+    Document(
+      "Learning Dart",
+      "https://riptutorial.com/Download/dart.pdf",
+      "2-03-2018",
+      42,
+    ),
+    Document(
+      "Django Documentation",
+      "https://buildmedia.readthedocs.org/media/pdf/django/2.2.x/django.pdf",
+      "11-04-2022",
+      2060,
+    ),
   ];
 }
