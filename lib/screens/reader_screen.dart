@@ -18,9 +18,7 @@ class _ReaderScreenState extends State<ReaderScreen> {
       appBar: AppBar(
         title: Text(widget.doc!.docTitle!),
       ),
-      body: Container(
-        child: SfPdfViewer.network(widget.doc!.docUrl!),
-      ),
+      body: SfPdfViewer.network(widget.doc!.docUrl!),
     );
   }
 }
