@@ -84,5 +84,17 @@ class Document {
       "11-04-2022",
       2060,
     ),
+    Document(
+      "Technical Writting",
+      "https://www.e-buc.com/portades/9788498803488_L33_23.pdf",
+      "4-11-2027",
+      32,
+    ),
+     Document(
+      "Technical Writting",
+      "https://www.e-buc.com/portades/9788498803488_L33_23.pdf",
+      "4-11-2027",
+      32,
+    ),
   ];
 }
