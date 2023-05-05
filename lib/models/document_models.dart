@@ -48,12 +48,11 @@ class Document {
       "13-09-2019",
       20,
     ),
-
     Document(
-      "Introduction to quantum mechanics",
-      "https://scholar.harvard.edu/files/david-morin/files/waves_quantum.pdf",
-      "13-09-2019",
-      20,
+      "Quantum Computing",
+      "https://homepages.cwi.nl/~rdewolf/qcnotes.pdf",
+      "13-05-2011",
+      218,
     ),
   ];
 }
