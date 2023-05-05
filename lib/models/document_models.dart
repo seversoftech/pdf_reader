@@ -42,5 +42,18 @@ class Document {
       "13-07-2018",
       533,
     ),
+    Document(
+      "Introduction to quantum mechanics",
+      "https://scholar.harvard.edu/files/david-morin/files/waves_quantum.pdf",
+      "13-09-2019",
+      20,
+    ),
+
+    Document(
+      "Introduction to quantum mechanics",
+      "https://scholar.harvard.edu/files/david-morin/files/waves_quantum.pdf",
+      "13-09-2019",
+      20,
+    ),
   ];
 }
