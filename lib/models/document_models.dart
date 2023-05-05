@@ -66,5 +66,11 @@ class Document {
       "1-09-2015",
       87,
     ),
+    Document(
+      "Dart Programming Language Specification 5th edition draft",
+      "https://dart.dev/guides/language/specifications/DartLangSpec-v2.2.pdf",
+      "29-06-2019",
+      206,
+    ),
   ];
 }
