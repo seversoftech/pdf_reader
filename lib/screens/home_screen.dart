@@ -21,50 +21,45 @@ class _HomeScreenState extends State<HomeScreen> {
       body: SafeArea(
           child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 18.0, vertical: 16.0),
-        child: Column(
-          children: [
-            SingleChildScrollView(
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.start,
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    'Available Documents',
-                    style: GoogleFonts.roboto(
-                        fontSize: 28.0, fontWeight: FontWeight.bold),
-                  ),
-                  Column(
-                    children: Document.docList
-                        .map((doc) => ListTile(
-                              onTap: () {
-                                Navigator.push(
-                                    context,
-                                    MaterialPageRoute(
-                                        builder: (context) =>
-                                            ReaderScreen(doc)));
-                              },
-                              title: Text(
-                                doc.docTitle!,
-                                style: GoogleFonts.nunito(),
-                                overflow: TextOverflow.ellipsis,
-                              ),
-                              subtitle: Text("${doc.pageNum} Pages"),
-                              trailing: Text(
-                                doc.docDate!,
-                                style: GoogleFonts.nunito(color: Colors.grey),
-                              ),
-                              leading: const Icon(
-                                Icons.picture_as_pdf,
-                                color: Colors.red,
-                                size: 28.0,
-                              ),
-                            ))
-                        .toList(),
-                  )
-                ],
+        child: SingleChildScrollView(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                'Available Documents',
+                style: GoogleFonts.roboto(
+                    fontSize: 28.0, fontWeight: FontWeight.bold),
               ),
-            ),
-          ],
+              Column(
+                children: Document.docList
+                    .map((doc) => ListTile(
+                          onTap: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => ReaderScreen(doc)));
+                          },
+                          title: Text(
+                            doc.docTitle!,
+                            style: GoogleFonts.nunito(),
+                            overflow: TextOverflow.ellipsis,
+                          ),
+                          subtitle: Text("${doc.pageNum} Pages"),
+                          trailing: Text(
+                            doc.docDate!,
+                            style: GoogleFonts.nunito(color: Colors.grey),
+                          ),
+                          leading: const Icon(
+                            Icons.picture_as_pdf,
+                            color: Colors.red,
+                            size: 28.0,
+                          ),
+                        ))
+                    .toList(),
+              )
+            ],
+          ),
         ),
       )),
     );
