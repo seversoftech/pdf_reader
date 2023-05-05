@@ -18,7 +18,7 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       body: SafeArea(
           child: Padding(
-        padding: EdgeInsets.symmetric(horizontal: 18.0, vertical: 16.0),
+        padding: const EdgeInsets.symmetric(horizontal: 18.0, vertical: 16.0),
         child: SingleChildScrollView(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
