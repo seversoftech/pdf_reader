@@ -12,13 +12,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'PDF READER',
       theme: ThemeData(
-       
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme:
+            ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 13, 9, 20)),
         useMaterial3: true,
       ),
-      home:  HomeScreen(),
+      home: const HomeScreen(),
     );
   }
 }
