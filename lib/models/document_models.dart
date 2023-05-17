@@ -96,5 +96,11 @@ class Document {
       "4-11-2019",
       12,
     ),
+     Document(
+      "Flutter",
+      "https://www.tutorialspoint.com/flutter/flutter_tutorial.pdf",
+      "8-1-2019",
+      185,
+    ),
   ];
 }
