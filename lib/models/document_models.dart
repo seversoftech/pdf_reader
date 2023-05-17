@@ -102,5 +102,11 @@ class Document {
       "8-1-2019",
       185,
     ),
+      Document(
+      "MarkLogic Server(REST Application Developer’s Guide)",
+      "https://docs.marklogic.com/guide/rest-dev.pdf",
+      "10-5-2019",
+      399,
+    ),
   ];
 }
